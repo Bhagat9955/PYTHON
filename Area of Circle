@@ -1,0 +1,7 @@
+//Program 5: Area of Circle (A = πr²)
+
+import math
+
+radius = float(input("Enter radius of circle: "))
+area = math.pi * radius ** 2
+print(f"Area of circle: {area:.2f}")
